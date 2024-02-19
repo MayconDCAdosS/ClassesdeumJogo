@@ -1,0 +1,35 @@
+# Jogo de Aventura - Classes de Herói
+
+Este projeto implementa uma classe em JavaScript para representar um herói de aventura com diferentes tipos de ataques.
+
+## Conteúdo
+
+1. [Introdução](#introdução)
+2. [Estrutura do Projeto](#estrutura-do-projeto)
+3. [Como Usar](#como-usar)
+4. [Exemplo](#exemplo)
+5. [Licença](#licença)
+
+## Introdução
+
+O projeto consiste em uma classe `Heroi` que possui propriedades como nome, idade e tipo, além de um método `atacar` que exibe a mensagem de ataque com base no tipo do herói.
+
+## Estrutura do Projeto
+
+- `index.html`: Página HTML para usar a classe Heroi.
+- `heroi.js`: Implementação da classe Heroi.
+- `README.md`: Este arquivo de documentação.
+
+## Como Usar
+
+1. Clone o repositório para o seu ambiente local.
+2. Abra o arquivo `index.html` em um navegador para ver a execução do exemplo.
+
+## Exemplo
+
+```javascript
+// Instanciando um herói de exemplo
+const heroiExemplo = new Heroi('Herói Exemplo', 25, 'guerreiro');
+
+// Chamando o método atacar
+heroiExemplo.atacar();
